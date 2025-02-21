@@ -1,0 +1,1371 @@
+.nav__bar .navbar-brand {
+  font-size: clamp(1rem, -0.125rem + 5vw, 4.25rem);
+}
+.fonzise {
+  font-size: clamp(0.875rem, 0.7019rem + 0.7692vw, 1.375rem);
+}
+
+.fonzise2 {
+  font-size: 12px;
+}
+
+.bux{
+  font-size: clamp(0.875rem, 0.6587rem + 0.9615vw, 1.5rem);
+}
+/*---------Media queries for responsiveness 360px--*/
+@media (max-width: 360px) and (max-width: 576px){
+/***************NAVBAR**************************/
+
+/*******.nav__bar */
+.nav__bar {
+  padding: 4px 5px;
+}
+
+.navbar-brand {
+  font-size: 24px; /* Reduce size for small screens */
+  position: static; /* Remove absolute positioning */
+  transform: none;
+  margin: auto;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center icons */
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  font-size: 12px;
+  margin: 5px; /* Adjust spacing */
+}
+
+.navbar-toggler {
+  order: -1; /* Moves the hamburger menu to the left */
+}
+
+.container {
+  flex-direction: row; /* Stack elements on small screens */
+  text-align: center;
+}
+
+
+  /*********************IMage Slider -1***********************/
+
+  .grey-box,
+  .grey-boxS1,
+  .grey-boxS2 {
+      height: 150px; /* Reduced height */
+      padding: 10px; /* Adjusted padding */
+  }
+ 
+
+  .grey-box p,
+  .grey-boxS1 p,
+  .grey-boxS2 p {
+      font-size: 12px; /* Adjusted font size */
+  }
+
+  .grey-box h2,
+  .grey-boxS1 h2,
+  .grey-boxS2 h2 {
+      font-size: 16px;
+  }
+
+  #greyBoxCarousel.carousel-item img {
+      height: 200px; /* Reduced image height */
+      object-fit: cover;
+  }
+
+/*---------------------BOXY Respo----------------------------*/
+.boxy,
+.boxy2 {
+    height: 150px; /* Reduced height for small screens */
+    background-size: contain; /* Adjust background size for smaller screens */
+}
+.boxy-content {
+  bottom: 10px; /* Reduced spacing at the bottom */
+  padding: 5px; /* Added padding */
+}
+
+.boxy-content h3 {
+  font-size: 14px; /* Smaller font size */
+}
+
+.boxy-content {
+    bottom: 10px; /* Reduced spacing at the bottom */
+    padding: 5px; /* Added padding */
+}
+
+.boxy-content h3 {
+    font-size: 14px; /* Smaller font size */
+}
+
+.boxy-content .author {
+    font-size: 10px; /* Smaller font size */
+}
+
+.text-center h3 {
+    font-size: 18px; /* Adjusted headline font size */
+}
+
+.text-center p.category {
+    font-size: 12px; /* Adjusted category text font size */
+}
+
+.text-center p.author {
+    font-size: 10px; /* Adjusted author text font size */
+}
+
+/*------------------------Featured video & Ads---------------------*/
+
+  .grey-box6e1, .grey-box6e2, .grey-box6e3 {
+    height: 150px;
+}
+.video-caption {
+    font-size: 12px;
+}
+.ads-box {
+    padding: 20px;
+}
+
+/*---------------RIght side-----------------*/
+.grey-boxR {
+  height: 200px;
+  width: 90%;
+}
+
+#imageCarousel .carousel-item {
+  height: 240px;
+  width: 200px;
+}
+
+.placeholder-box, .placeholder-box2, .placeholder-box3 {
+  width: 60px;
+  height: 45px;
+}
+
+.top-posts h5 {
+  font-size: 1rem;
+}
+
+.social-buttons .btn {
+  padding: 10px 15px;
+  font-size: 0.65rem;
+}
+
+.subscribe-box .placeholder-boxy {
+  width: 200px;
+  height: 140px;
+}
+
+
+}
+
+@media screen and (max-width: 360px) {
+   .grey-box2, 
+  .grey-box4, 
+  .grey-box4e1, 
+  .grey-box4e2, 
+  .grey-box4e3, 
+  .grey-box4e4, 
+  .grey-box4e5, 
+  .grey-box4e6, 
+  .itum-1, 
+  .itum-2, 
+  .itum-3, 
+  .itum-4, 
+  .itum-5, 
+  .itum-6 {
+    height: 190px; /* Reduce height for smaller screens */
+    background-size: contain; /* Adjust background size to fit better */
+  }
+
+  .row {
+    flex-direction: grid; /* Stack elements in grid */
+  }
+
+  .col-md-6 {
+    width: 100%; /* Ensure full-width columns on small screens */
+  }
+
+  .text-muted {
+    font-size: 14px; /* Adjust text size for readability */
+  }
+
+  /* h3 {
+    font-size: 18px;
+  } */
+
+  p {
+    font-size: 14px; /* Smaller paragraph text */
+  }
+
+  .d-flex {
+    flex-direction: grid; /* Stack items vertically in flex containers */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .d-flex2 {
+    flex-direction: grid; /* Stack items vertically in flex containers */
+    align-items: center; /* Align items to the start */
+  }
+
+  .share-btn{
+    align-items: center;
+  }
+
+  .bi {
+    font-size: 16px; /* Adjust icon size */
+  }
+
+}
+
+        /**--Media queries 576px-***/
+@media (min-width: 576px) and (max-width: 768px){
+
+/***************NAVBAR**************************/
+.nav__bar {
+  padding: 10px 20px;
+}
+
+
+  /*********************IMage Slider -1***********************/
+  .grey-box,
+  .grey-boxS1,
+  .grey-boxS2 {
+      height: 150px; /* Adjust height */
+      padding: 10px;
+      background-size: contain; /* Adjust background size */
+  }
+
+    /***extra-small?*/
+
+
+  .grey-box p,
+  .grey-boxS1 p,
+  .grey-boxS2 p {
+      font-size: 12px;
+  }
+
+  .grey-box h2,
+  .grey-boxS1 h2,
+  .grey-boxS2 h2 {
+      font-size: 18px;
+  }
+
+  /***small?*/
+    .grey-box,
+    .grey-boxS1,
+    .grey-boxS2 {
+        height: 450px;
+        padding: 12px;
+        background-size: cover;
+    }
+
+    .grey-box h2,
+    .grey-boxS1 h2,
+    .grey-boxS2 h2 {
+        font-size: 20px;
+    }
+  /*---------------------BOXY Respo----------------------------*/
+
+    /* Extra small devices (up to 576px) */
+  .boxy, 
+  .boxy2 {
+      height: 300px; /* Adjust height for smaller screens */
+      background-size: contain; /* Ensure full image visibility */
+      background-position: top; /* Adjust background position */
+  }
+
+  .text-center p.category {
+      font-size: 12px;
+  }
+
+  .text-center h3 {
+      font-size: 16px;
+  }
+
+  .text-center p.author {
+      font-size: 10px;
+  }
+  /* Small devices (576px to 768px) */
+  .boxy, 
+  .boxy2 {
+      height: 350px;
+      background-size: cover;
+  }
+
+  .text-center p.category {
+      font-size: 14px;
+  }
+
+  .text-center h3 {
+      font-size: 18px;
+  }
+
+  .text-center p.author {
+      font-size: 12px;
+  }
+    /*********************RIght SIde***********************/
+
+  /***************Footer**********************/
+  footer {
+  padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  footer h5 {
+  font-size: 0.9rem;
+  }
+
+  footer ul li {
+  font-size: 0.8rem;
+  }
+
+  footer p, footer small {
+  font-size: 0.7rem;
+  }
+
+  footer .bi {
+  font-size: 1.2rem;
+  }
+
+    /*------------------------Featured video & Ads---------------------*/
+  .grey-box6e1, .grey-box6e2, .grey-box6e3 {
+  height: 190px;
+  }
+  .video-caption {
+  font-size: 13px;
+  }
+  .grey-boxR {
+  height: 250px;
+  width: 90%;
+  }
+
+  #imageCarousel .carousel-item {
+  height: 280px;
+  width: 250px;
+  }
+
+  .placeholder-box, .placeholder-box2, .placeholder-box3 {
+  width: 70px;
+  height: 50px;
+  }
+
+  .social-buttons .btn {
+  font-size: 0.7rem;
+  }
+
+  .subscribe-box .placeholder-boxy {
+  width: 220px;
+  height: 260px;
+  }
+
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Ensure the right section stacks downward */
+  .col-md-4 .px-xl-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust image carousel dimensions */
+  #imageCarousel .carousel-item {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  /* Ensure social buttons are full width */
+  .social-buttons .btn {
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 12px;
+  }
+
+  /* Ensure Top Posts align downward properly */
+  .top-posts .d-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .placeholder-box, .placeholder-box2, .placeholder-box3 {
+    width: 100px;
+    height: 75px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust Subscribe Box */
+  .subscribe-box {
+    width: 90%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .subscribe-box .subscribe-boxy {
+    width: 100%;
+    height: 180px;
+  }
+}
+      /**-Media queries (768px to 992px)----------------***/
+      @media (min-width: 768px) and (max-width: 992px) {
+         
+        /***************NAVBAR**************************/
+        .nav__bar {
+            padding: 15px 25px;
+        }
+      
+        /********************* Image Slider ***********************/
+        .grey-box,
+        .grey-boxS1,
+        .grey-boxS2 {
+            height: 410px;
+            padding: 15px;
+            background-size: cover;
+        }
+      
+        .grey-box h2,
+        .grey-boxS1 h2,
+        .grey-boxS2 h2 {
+            font-size: 22px;
+        }
+
+        .grey-boxS2, .grey-boxS1, .grey-box {
+          /* background-image: url(assets/drift.png);sdvdvsdvsdvsdvsdvsdvsdvsdvsdv */
+          height: 350px;
+          background-position: center;
+      }
+      
+        /*--------------------- Adjust Left & Right Side ----------------------------*/
+        
+        /* Make the right-side content stack downward */
+        .row {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .col-md-8 {
+          width: 100%;
+        }
+      
+        .col-md-4 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+        }
+      
+        /* Adjust Image Carousel */
+        #imageCarousel {
+          width: 90%;
+          max-width: 500px;
+        }
+      
+        #imageCarousel .carousel-item {
+          height: 250px;
+          width: 100%;
+          object-fit: cover;
+        }
+      
+        /* Social Buttons Full Width */
+        .social-buttons .btn {
+          width: 100%;
+          text-align: center;
+          font-size: 0.9rem;
+          padding: 14px;
+          margin-bottom: 10px;
+        }
+      
+        /* Top Posts Alignment */
+        .top-posts {
+          width: 90%;
+          max-width: 600px;
+          text-align: center;
+        }
+      
+        .top-posts .d-flex {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        /* Adjust Subscribe Box */
+        .subscribe-box {
+          width: 90%;
+          max-width: 320px;
+          margin: 20px auto;
+        }
+      
+        .subscribe-box .subscribe-boxy {
+          width: 100%;
+          height: 200px;
+        }
+      
+        /* Adjust Placeholders */
+        .placeholder-box, .placeholder-box2, .placeholder-box3 {
+          width: 110px;
+          height: 80px;
+          margin-bottom: 12px;
+        }
+      
+        /***************--- Footer ----**********************/
+        footer {
+          padding: 1.5rem;
+        }
+      
+        footer h5 {
+          font-size: 1rem;
+        }
+      
+        footer ul li {
+          font-size: 0.85rem;
+        }
+      
+        footer p, footer small {
+          font-size: 0.75rem;
+        }
+      
+        footer .bi {
+          font-size: 1.3rem;
+        }
+      
+        /*------------------------ Featured Video & Ads ---------------------*/
+        .grey-box6e1, .grey-box6e2, .grey-box6e3 {
+          height: 180px;
+        }
+      
+        .video-caption {
+          font-size: 14px;
+        }
+      }
+
+      /*grey-boxy*/
+      @media (min-width: 768px) and (max-width: 992px) {
+        .row {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+      
+        .col-md-6 {
+          width: 100%;
+          text-align: center;
+        }
+      
+        .grey-box2, .grey-boxP, .grey-box4e1, .grey-box4e2 {
+          width: 80%; /* Adjust width for better scaling */
+          height: 300px; /* Set a fixed height */
+          margin: 0 auto; /* Center the divs */
+        }
+      
+        .number-box {
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      
+        .fonzise {
+          /* font-size: 1.8rem; Adjust font size */
+          text-align: center; /* Ensure text is centered */
+          display: block;
+        }
+      
+        .d-flex2 {
+          justify-content: center;
+        }
+      
+        .share-btn {
+          width: 50px;
+          height: 50px;
+          font-size: 18px;
+        }
+
+        /* Centering the category and date */
+  .d-flex {
+    justify-content: center !important; /* Centers flex items */
+    text-align: center;
+  }
+
+  .category, .category2, .categoryTr, .categoryCL, .categoryNW,  .text-muted {
+    display: inline-block;
+    text-align: center;
+  }
+      }
+      
+      /*naver*/
+      @media (min-width: 768px) and (max-width: 992px) {
+        .nav__bar {
+            padding: 10px 15px; /* Adjusted padding for better fit */
+        }
+    
+        .navbar-brand {
+            font-size: 36px; /* Slightly reduced font size */
+            position: static; /* Prevent absolute positioning issues */
+            transform: none;
+            padding: 0;
+        }
+    
+        .navbar-toggler {
+            font-size: 20px; /* Adjusted menu icon size */
+        }
+    
+        .social-icons {
+            gap: 8px;
+        }
+    
+        .search-container input {
+            width: 130px; /* Adjusted input width */
+            font-size: 14px;
+        }
+    
+        .search-container button {
+            padding: 5px 8px; /* Reduced button padding */
+        }
+    
+        .navbar-nav {
+            flex-direction: row;
+            justify-content: center; /* Ensures center alignment */
+        }
+    
+        .navbar-nav .nav-link {
+            font-size: 13px; /* Slightly reduced font size for better spacing */
+            padding: 5px 8px; /* Adjusted padding */
+        }
+    
+        .navbar-nav .nav-item {
+            margin-right: 10px; /* Reduced margin for better spacing */
+        }
+    
+        .container {
+            flex-wrap: wrap; /* Allows better responsiveness */
+        }
+    }
+   
+      /**-Media queries (992px)----------------***/
+@media (min-width: 992px) and (max-width: 1200px){
+  /* Extra large devices: 1200px Navbar-*/
+ 
+/* @media (min-width: 993px) and (max-width: 1200px) { */
+.nav__bar {
+  padding: 15px 30px;
+}
+
+  /*********************IMage Slider -1***********************/
+  .grey-box,
+    .grey-boxS1,
+    .grey-boxS2 {
+        height: 450px;
+        padding: 15px;
+        background-size: cover;
+    }
+
+    .grey-box h2,
+    .grey-boxS1 h2,
+    .grey-boxS2 h2 {
+        font-size: 24px;
+    }
+/*---------------------BOXY Respo----------------------------*/
+.boxy, 
+    .boxy2 {
+        height: 450px;
+        background-size: cover;
+    }
+
+    .text-center p.category {
+        font-size: 18px;
+    }
+
+    .text-center h3 {
+        font-size: 22px;
+    }
+
+    .text-center p.author {
+        font-size: 16px;
+    }
+
+/*********************RIght SIde***********************/
+.grey-boxR {
+  height: 300px;
+  width: 80%;
+}
+
+#imageCarousel .carousel-item {
+  height: 300px;
+}
+
+.social-buttons .btn {
+  font-size: 0.9rem;
+  padding: 15px;
+}
+
+.subscribe-box .placeholder-box {
+  width: 240px;
+  height: 290px;
+}
+
+.top-posts h5 {
+  font-size: 1.25rem;
+}
+
+.top-posts p {
+  font-size: 0.875rem;
+}
+/***************Footer**********************/
+footer {
+  padding: 1.75rem; /* Adjust padding for large screens */
+}
+
+footer h5 {
+  font-size: 1.1rem;
+}
+
+footer ul li {
+  font-size: 0.9rem;
+}
+
+footer p, footer small {
+  font-size: 0.8rem;
+}
+
+footer .bi {
+  font-size: 1.4rem;
+}
+/*------------------------Featured video & Ads---------------------*/
+.grey-box6e1, .grey-box6e2, .grey-box6e3 {
+  height: 190px;
+}
+/********rught*******/
+.grey-boxR {
+  height: 300px;
+}
+
+#imageCarousel .carousel-item {
+  height: 320px;
+  width: 270px;
+}
+
+.subscribe-box .placeholder-box {
+  width: 240px;
+  height: 280px;
+}
+ 
+}
+
+      /**Media queries(1200px)----------------***/
+@media (min-width: 1200px) and (max-width: 1400px) {
+/***************NAVBAR**************************/
+
+  .nav__bar {
+      padding: 20px 40px;
+  }
+
+  /*********************IMage Slider -1***********************/
+  .grey-box,
+    .grey-boxS1,
+    .grey-boxS2 {
+        height: 480px;
+        padding: 15px;
+        background-size: cover;
+    }
+
+    .grey-box h2,
+    .grey-boxS1 h2,
+    .grey-boxS2 h2 {
+        font-size: 26px;
+    }
+/*---------------------BOXY Respo----------------------------*/
+.boxy, 
+    .boxy2 {
+        height: 480px;
+        background-size: cover;
+    }
+
+    .text-center p.category {
+        font-size: 20px;
+    }
+
+    .text-center h3 {
+        font-size: 24px;
+    }
+
+    .text-center p.author {
+        font-size: 18px;
+    }
+/*********************RIght SIde***********************/
+.grey-boxR {
+  height: 320px;
+  width: 75%;
+}
+
+#imageCarousel .carousel-item {
+  height: 320px;
+}
+
+.social-buttons .btn {
+  font-size: 1rem;
+}
+
+.subscribe-box .placeholder-box {
+  width: 250px;
+  height: 300px;
+}
+
+.top-posts h5 {
+  font-size: 1.3rem;
+}
+
+.top-posts p {
+  font-size: 0.9rem;
+}
+/***************Footer**********************/
+footer {
+  padding: 2rem; /* Consistent padding for extra-large screens */
+}
+
+footer h5 {
+  font-size: 1.15rem;
+}
+
+footer ul li {
+  font-size: 0.95rem;
+}
+
+footer p, footer small {
+  font-size: 0.85rem;
+}
+
+footer .bi {
+  font-size: 1.45rem;
+}
+/*------------------------Featured video & Ads---------------------*/
+.grey-box6e1, .grey-box6e2, .grey-box6e3 {
+  height: 200px;
+}
+/*---------------RIght side-----------------*/
+.grey-boxR {
+  height: 320px;
+}
+
+#imageCarousel .carousel-item {
+  height: 340px;
+  width: 280px;
+}
+/*greybox*/
+.grey-box2,
+  .grey-box4, 
+  .grey-box4e1, 
+  .grey-box4e2, 
+  .grey-box4e3, 
+  .grey-box4e4, 
+  .grey-box4e5, 
+  .grey-box4e6, 
+  .itum-1, 
+  .itum-2, 
+  .itum-3, 
+  .itum-4, 
+  .itum-5, 
+  .itum-6 {
+    height: 280px;
+  }
+  .row.align-items-center {
+    padding: 35px;
+  }
+
+}
+   /**-------Media queries (1400px)----------------***/
+
+@media (max-width: 1400px){
+/***************NAVBAR**************************/
+.nav__bar {
+  padding: 25px 50px;
+}
+
+  /*********************IMage Slider -1***********************/
+  /* Default styles (for screens larger than 1400px by default) */
+  .grey-box,
+  .grey-boxS1,
+  .grey-boxS2 {
+      background: linear-gradient(to bottom, #b3b3b3 50%, #000 100%);
+      height: 500px;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 15px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  }
+/*---------------------BOXY Respo----------------------------*/
+/* Default styles (for screens larger than 1400px by default) */
+.boxy, 
+.boxy2 {
+    background: #b3b3b3;
+    height: 500px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/***************Footer**********************/
+footer {
+  padding: 2.5rem; /* Slightly more padding for extra-extra-large screens */
+}
+
+footer h5 {
+  font-size: 1.2rem;
+}
+
+footer ul li {
+  font-size: 1rem;
+}
+
+footer p, footer small {
+  font-size: 0.9rem;
+}
+
+footer .bi {
+  font-size: 1.5rem;
+}
+/*------------------------Featured video & Ads---------------------*/
+.grey-box6e1, .grey-box6e2, .grey-box6e3 {
+  height: 220px;
+}
+/*---------------RIght side-----------------*/
+.grey-boxR {
+  height: 340px;
+}
+
+#imageCarousel .carousel-item {
+  height: 360px;
+  width: 290px;
+}
+/*-----------------------------gerybox------------*/
+.grey-box2,
+.grey-box4, 
+.grey-box4e1, 
+.grey-box4e2, 
+.grey-box4e3, 
+.grey-box4e4, 
+.grey-box4e5, 
+.grey-box4e6, 
+.itum-1, 
+.itum-2, 
+.itum-3, 
+.itum-4, 
+.itum-5, 
+.itum-6 {
+  height: 300px;
+}
+.row.align-items-center {
+  padding: 10px;
+}
+
+}
+
+/* --------------------Fashion------------------------- */
+/* ✅ Breakpoint: 576px */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .grey-box7 {
+    height: 320px; /* Reduce size further */
+  }
+
+  .grey-box7e1, .grey-box7e2, .grey-box7e3, .grey-box7e4 {
+    height: 150px; /* Reduce small box height */
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .BU {
+    font-size: 0.85rem;
+  }
+
+  .row.g-3 {
+    gap: 0.5rem;
+  }
+
+  .col-6 {
+    width: 100%; /* Make small boxes stack on mobile */
+  }
+}
+
+/* ✅ Breakpoint: 768px */
+@media (max-width: 768px) {
+  /* Center the main title */
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  /* Center the main large image */
+  .grey-box7 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Grid container for small boxes */
+  .small-box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    gap: 15px; /* Maintain proper spacing */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  /* Style for each small box */
+  .grey-box7e1, .grey-box7e2, .grey-box7e3, .grey-box7e4 {
+    height: 180px;
+    width: 100%;
+    max-width: 250px; /* Ensure items do not stretch */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Ensures perfect centering */
+  }
+
+  /* Center text below each small box */
+  .BU {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+}
+
+/****************************************/
+
+.grey-boxS1 {
+    /* background-image: url(assets/superman\ arrested.png); */
+    background-position: center;
+}
+
+/*********************RIght SIde***********************/
+/* Default styles (for screens larger than 1400px by default) */
+.grey-boxR {
+    background-color: #ccc;
+    height: 300px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #imageCarousel .carousel-item {
+    height: 320px;
+    width: 290px;
+  }
+  
+  #imageCarousel .carousel-item img,
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-controls button {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    width: 5%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .carousel-control-prev {
+    left: 0;
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }
+  
+  .social-buttons .btn {
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 0.75rem;
+  }
+  
+  .subscribe-box .placeholder-box {
+    width: 250px;
+    height: 300px;
+  }
+
+/***************Footer**********************/
+/* General Footer Styles */
+footer {
+  color: #ccc;
+  padding: 2rem; /* Default padding for larger screens */
+  background-color: #333; /* Optional: Ensure visibility of the content */
+}
+
+footer h5 {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  border-bottom: 1px solid #444;
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul li span {
+  color: #aaa;
+}
+
+.placeholder-boxF {
+  background-color: #555;
+  height: 60px;
+  width: 60px;
+}
+
+footer p {
+  font-size: 0.875rem;
+  color: #aaa;
+  margin-bottom: 0.25rem;
+}
+
+footer small {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+footer .row.g-2 > div {
+  height: 80px;
+}
+
+footer .d-flex h5 {
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+}
+
+footer .bi {
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer .d-flex a {
+  margin-right: 1rem;
+}
+
+/***************------1200------------*******************/
+/* .grey-box2,
+.grey-box4, 
+  .grey-box4e1, 
+  .grey-box4e2, 
+  .grey-box4e3, 
+  .grey-box4e4, 
+  .grey-box4e5, 
+  .grey-box4e6, 
+  .itum-1, 
+  .itum-2, 
+  .itum-3, 
+  .itum-4, 
+  .itum-5, 
+  .itum-6 {
+  background: #b3b3b3;
+  height: 240px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+/*------------------------Featured video & Ads---------------------*/
+
+.grey-box6e1, .grey-box6e2, .grey-box6e3 {
+  background: #b3b3b3;
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grey-box6e1 {
+  background-image: url(/assets/run-lifestyle.jpg);
+}
+
+.grey-box6e2 {
+  background-image: url(/assets/Gotham\ city\ arkham\ knight.jpg);
+}
+
+.grey-box6e3 {
+  background-image: url(/assets/drift.png);
+}
+
+/* Play icon styling */
+.play-icon {
+  font-size: 36px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Caption styling */
+.video-caption {
+  font-size: 14px;
+  color: black;
+}
+
+
+
+/*---------------RIght side-----------------*/
+/* Base Styles */
+.grey-boxR {
+  background-color: #ccc;
+  height: 300px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#imageCarousel .carousel-item {
+  height: 360px;
+  width: 360px;
+}
+
+#imageCarousel .carousel-item img {
+  /* height: 100%;
+  width: 100%; */
+  object-fit: cover;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-controls button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  width: 5%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.social-buttons .btn {
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 0.75rem; /* Reduced text size */
+}
+
+.social-buttons .btn-primary {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.social-buttons .btn-info {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.social-buttons .btn-danger {
+  background-color: #bd081c;
+  border-color: #bd081c;
+}
+
+.social-buttons .btn:hover {
+  filter: brightness(0.9);
+}
+
+.placeholder-box, .placeholder-box2, .placeholder-box3 {
+  background-color: #ccc;
+  width: 80px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-posts h5 {
+  font-size: 1.25rem;
+}
+
+.top-posts p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.subscribe-box {
+  background-color: #fff;
+}
+
+.subscribe-box h5 {
+  font-size: 1.25rem;
+  object-fit: cover;
+}
+
+.subscribe-box .placeholder-box {
+  width: 250px;
+  height: 300px;
+}
+
+.subscribe-box button {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}

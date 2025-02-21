@@ -1,0 +1,386 @@
+.news-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  /* padding-top: 10px; */
+  width: 100%; /* Ensure the container spans full width */
+}
+
+.news {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 38px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(53, 53, 53);
+  width: 100%; /* Make the background spread full width */
+  text-align: center; /* Center text horizontally */
+  /* border-radius: 5px; */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.picbox {
+  background: #b3b3b3;
+  height: 240px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grey-box-A {
+  background: #b3b3b3;
+  height: 240px;
+  width: 100%;
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.boxyNews1 {
+  background: #b3b3b3;
+  height: 360px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.boxyAction1 {
+  background: #b3b3b3;
+  height: 400px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.boxyLife2 {
+  background: #b3b3b3;
+  height: 350px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: top;
+}
+
+.boxyFash2 {
+  background: #b3b3b3;
+  height: 350px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.boxyAb {
+  background: #b3b3b3;
+  height: 200px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+/*------------Breaking NEws---------------*/
+.grey-boxBN {
+  background-color: #ccc;
+  border-radius: 0px;
+  height: 500px;
+  width: 100%;
+  background-image: url(/assets/tasm.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.grey-boxBN1 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/IMF.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.grey-boxBN2 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/superman\ and\ Mr.terrific.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.grey-boxBN3 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/superman\ arrested.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.grey-boxBN4{
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/Gotham_City_sky.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+/*------------Travel Vlogs----------*/
+
+.grey-boxTr {
+  background-color: #ccc;
+  border-radius: 0px;
+  height: 500px;
+  width: 100%;
+  background-image: url(/assets/pandora.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.grey-boxTr1 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/f4F2.webp);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.grey-boxTr2 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/place2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.grey-boxTr3 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/place3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.grey-boxTr4{
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/gothcity2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*------------Lifestyle Vlogs----------*/
+
+.grey-boxLi {
+  background-color: #ccc;
+  border-radius: 0px;
+  height: 500px;
+  width: 100%;
+  background-image: url(/assets/Healthy-Lifestyle-Choices-for-People.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.grey-boxLi1 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/health-fot0.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.grey-boxLi2 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/place2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.grey-boxLi3 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/run-lifestyle.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.grey-boxLi4{
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/healthy-lifestyle-silhouette-wanida-prapan.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+/*------------------Fashion----------------*/
+.grey-boxFa {
+  background-color: #ccc;
+  border-radius: 0px;
+  height: 500px;
+  width: 100%;
+  background-image: url(/assets/Cloth_JohnWick_Feage.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.grey-boxFa1 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/Clothing-Style.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.grey-boxFa2 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/Clothing-choosing.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+}
+
+.grey-boxFa3 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/cloth-suits-in-cinema-john-wick-2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.grey-boxFa4{
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/JB007.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*------------Breaking NEws---------------*/
+.grey-boxEn {
+  background-color: #ccc;
+  border-radius: 0px;
+  height: 500px;
+  width: 100%;
+  background-image: url(/assets/Lorem-ipsum-movie-poster_841014-34008.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.grey-boxEn1 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/Lorem-ipsum-movie-poster_868.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+.grey-boxEn2 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/Lorem-ipsum-movie-poster-dete_8488.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+
+}
+
+.grey-boxEn3 {
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/Lorem\ ispum.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+
+}
+
+.grey-boxEn4{
+background-color: #ccc;
+border-radius: 0px;
+height: 500px;
+width: 100%;
+background-image: url(/assets/Lorem-ipsum-movie-poster_whit10.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+
+}
+/*------------*/
+
+.small-box {
+  height: 220px;
+  width: 100%;
+}
+
+.BU{
+font-weight: bold;
+
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}

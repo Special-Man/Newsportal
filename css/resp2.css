@@ -1,0 +1,656 @@
+.nav__bar .navbar-brand {
+    font-size: clamp(1rem, -0.125rem + 5vw, 4.25rem);
+  }
+  .fonzise {
+    font-size: clamp(1.125rem, 0.8125rem + 1vw, 1.375rem);
+  }
+  
+  .fonzise2 {
+    font-size: 12px;
+  }
+
+  .tex{
+    font-size: clamp(0.75rem, 0.4375rem + 1vw, 1rem);
+  }
+  
+  .bux{
+    font-size: clamp(0.875rem, 0.6587rem + 0.9615vw, 1.5rem);
+  }
+
+  .news{
+    font-size: clamp(1rem, 0.0833rem + 4.0741vw, 2.375rem);
+  }
+
+  /* Media Queries for Responsive Design */
+  /* Small Devices (sm: 360px) */
+  @media (max-width: 360px) {
+
+       /*-----------------Navbar-----------------------*/
+       .nav__bar {
+        padding: 4px 5px;
+      }
+      
+      .navbar-brand {
+        font-size: 24px; /* Reduce size for small screens */
+        position: static; /* Remove absolute positioning */
+        transform: none;
+        margin: auto;
+        text-align: center;
+      }
+      
+      .social-icons {
+        display: flex;
+        justify-content: center; /* Center icons */
+        flex-wrap: wrap;
+      }
+      
+      .social-icons a {
+        font-size: 12px;
+        margin: 5px; /* Adjust spacing */
+      }
+      
+      .navbar-toggler {
+        order: -1; /* Moves the hamburger menu to the left */
+      }
+      
+      .container {
+        flex-direction: row; /* Stack elements on small screens */
+        text-align: center;
+      }
+
+      /*------------------Left side--------------------------*/
+
+    .boxy,
+    .boxyLife2 {
+      height: 250px;
+    }
+
+    .category,
+    .category2 {
+      font-size: 12px;
+    }
+
+    /*------------RIght side---------------*/
+    .row {
+    flex-direction: grid;
+  }
+
+  .col-md-4 {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+   /*---------------Content--------------------*/
+  .picbox, .boxy, .grey-box-A {
+    height: 180px;
+  }
+ 
+  .text-muted {
+    font-size: 11px;
+  }
+  .share-btn {
+    font-size: 11px;
+    padding: 3px;
+  }
+  /*------------------BOXY-head------------------------*/
+  .boxy-content .author {
+    font-size: 10px; /* Smaller font size */
+}
+
+.text-center h3 {
+    font-size: 18px; /* Adjusted headline font size */
+    text-align: center;
+}
+
+.text-center p.category {
+    font-size: 12px; /* Adjusted category text font size */
+    text-align: center;
+}
+
+.text-center p.author {
+    font-size: 10px; /* Adjusted author text font size */
+    text-align: center;
+}
+.d-flex2 {
+  justify-content: center; /* Center the content */
+  text-align: center; /* Ensure text aligns properly */
+}
+  /*------------------BOXY-Low------------------------*/
+
+  .row {
+    flex-direction: grid; /* Stack elements in grid */
+  }
+
+  
+/*----------End - 360px-------------*/
+
+  }
+  
+  /* Small Devices (sm: 576px) */
+  @media (max-width: 576px) {
+  
+      /*------------------Left side--------------------------*/
+    .boxy,
+    .boxyLife2 {
+      height: 300px;
+    }
+
+    .category,
+    .category2 {
+      font-size: 14px;
+    }
+    /*--------------Content-------------------------*/
+    .picbox, .boxy, .grey-box-A {
+        height: 200px;
+      }
+     
+      .text-muted {
+        font-size: 12px;
+      }
+      .share-btn {
+        font-size: 12px;
+        padding: 4px;
+      }
+      .boxy-content .author {
+        font-size: 10px; /* Smaller font size */
+    }
+    
+    .text-center h3 {
+        font-size: 18px; /* Adjusted headline font size */
+        text-align: center;
+    }
+    
+    .text-center p.category {
+        font-size: 12px; /* Adjusted category text font size */
+        text-align: center;
+    }
+    
+    .text-center p.author {
+        font-size: 10px; /* Adjusted author text font size */
+        text-align: center;
+    }
+
+.row{
+  padding-bottom: 2px;
+}
+
+/****/
+.d-flex {
+  justify-content: center; /* Center the content */
+  text-align: center; /* Ensure text aligns properly */
+  padding-top: 5px;
+}
+
+.d-flex2 {
+  justify-content: center; /* Center the content */
+  text-align: center; /* Ensure text aligns properly */
+  padding-top: 5px;
+}
+
+/* --------------------Fashion------------------------- */
+h1 {
+  font-size: 1.8rem;
+}
+
+.grey-box7 {
+  height: 320px; /* Reduce size further */
+}
+
+.grey-box7e1, .grey-box7e2, .grey-box7e3, .grey-box7e4 {
+  height: 150px; /* Reduce small box height */
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.BU {
+  font-size: 0.85rem;
+}
+
+.row.g-3 {
+  gap: 0.5rem;
+}
+
+.col-6 {
+  width: 100%; /* Make small boxes stack on mobile */
+}
+
+  /***************Footer**********************/
+  footer {
+    padding: 1rem; /* Reduced padding for smaller screens */
+    }
+  
+    footer h5 {
+    font-size: 0.9rem;
+    }
+  
+    footer ul li {
+    font-size: 0.8rem;
+    }
+  
+    footer p, footer small {
+    font-size: 0.7rem;
+    }
+  
+    footer .bi {
+    font-size: 1.2rem;
+    }
+
+    .row {
+      flex-direction: grid; /* Stack elements in grid */
+    }
+  
+/*----------End - 576px-------------*/
+}
+  
+  /* Medium Devices (md: 768px) */
+  @media (max-width: 768px) {
+
+      /*------------------Left side--------------------------*/
+    .boxy,
+    .boxyLife2 {
+      height: 350px;
+    }
+  
+    .text-center {
+      text-align: left !important;
+    }
+
+    .row {
+      flex-direction: grid;
+      padding-bottom: 2px;
+    }
+  
+    .col-md-6 {
+      width: 100%;
+    }
+  
+    .grey-box4e2,
+    .grey-box4e3 {
+      height: 300px;
+    }
+    /*-----------------Content--------------------*/
+    .col-lg-12 {
+        flex-direction: column;
+      }
+      .col-md-8, .col-md-4 {
+        width: 100%;
+      }
+      .col-md-4 {
+        order: 2;
+        text-align: center;
+      }
+      .picbox, .boxy, .grey-box-A {
+        height: 220px;
+      }
+   
+      .text-muted {
+        font-size: 13px;
+      }
+      .share-btn {
+        font-size: 13px;
+        padding: 5px;
+      }
+/* --------------------Fashion------------------------- */
+/* Center the main title */
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Center the main large image */
+.grey-box7 {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grid container for small boxes */
+.small-box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+  gap: 15px; /* Maintain proper spacing */
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style for each small box */
+.grey-box7e1, .grey-box7e2, .grey-box7e3, .grey-box7e4 {
+  height: 180px;
+  width: 100%;
+  max-width: 250px; /* Ensure items do not stretch */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Ensures perfect centering */
+}
+
+/* Center text below each small box */
+.BU {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+              /***************--- Footer ----**********************/
+              footer {
+                padding: 1.5rem;
+              }
+            
+              footer h5 {
+                font-size: 1rem;
+              }
+            
+              footer ul li {
+                font-size: 0.85rem;
+              }
+            
+              footer p, footer small {
+                font-size: 0.75rem;
+              }
+            
+              footer .bi {
+                font-size: 1.3rem;
+              }
+/*----------End - 768px-------------*/
+
+  }
+ /*Navabr only*/
+  @media (min-width: 768px) and (max-width: 992px) {
+    .nav__bar {
+        padding: 10px 15px; /* Adjusted padding for better fit */
+    }
+
+    .navbar-brand {
+        font-size: 36px; /* Slightly reduced font size */
+        position: static; /* Prevent absolute positioning issues */
+        transform: none;
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        font-size: 20px; /* Adjusted menu icon size */
+    }
+
+    .social-icons {
+        gap: 8px;
+    }
+
+    .search-container input {
+        width: 130px; /* Adjusted input width */
+        font-size: 14px;
+    }
+
+    .search-container button {
+        padding: 5px 8px; /* Reduced button padding */
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: center; /* Ensures center alignment */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 13px; /* Slightly reduced font size for better spacing */
+        padding: 5px 8px; /* Adjusted padding */
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 10px; /* Reduced margin for better spacing */
+    }
+
+    .container {
+        flex-wrap: wrap; /* Allows better responsiveness */
+    }
+}
+
+/* Responsive styles for 768px - 992px (iPad focus: 810px - 890px) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .col-lg-12 {
+      flex-direction: column; /* Stack elements vertically */
+  }
+
+  /* Left Side */
+  .col-md-8 {
+      width: 100%;
+      padding: 0 15px; /* Adjust padding for better spacing */
+  }
+
+  .boxy {
+      height: 260px; /* Adjust image height for smaller screens */
+  }
+
+  .text-center h3.bux {
+      font-size: 22px; /* Slightly smaller heading */
+  }
+
+  .col-md-6 {
+      flex: 0 0 100%; /* Stack elements in a single column */
+      max-width: 100%;
+  }
+
+  .grey-box-A {
+      height: 300px; /* Reduce height to fit content */
+      margin-bottom: 15px; /* Add spacing between image and text */
+  }
+
+  .fonzise {
+      /* font-size: 18px;*/
+      text-align: center;
+  display: block; /* Ensures block-level behavior */
+  width: 100%; /* Takes full width for centering */
+  }
+
+  .text-muted {
+      font-size: 14px; /* Adjust paragraph font size */
+  }
+
+  /* Right Side (Sidebar) */
+  .col-md-4 {
+      width: 100%; /* Full width for better fit */
+      justify-content: center;
+      padding: 20px;
+  }
+
+  .picbox {
+      height: 250px; /* Reduce image height */
+  }
+
+  /* Carousel Adjustments */
+  .carousel-inner img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  /* Centering buttons and spacing */
+  .d-flex, .d-flex2 {
+      justify-content: center;
+  }
+
+  .share-btn {
+      font-size: 14px; /* Adjust button size */
+  }
+}
+
+  /* Large Devices (lg: 992px) */
+  @media (max-width: 992px) {
+
+      /*------------------Left side--------------------------*/
+    .boxy,
+    .boxyLife2 {
+      height: 400px;
+    }
+
+    .grey-box4e2,
+    .grey-box4e3 {
+      height: 350px;
+    }
+    /*-----------------Content----------------------*/
+    .picbox, .boxy, .grey-box-A {
+        height: 240px;
+      }
+    
+      .text-muted {
+        font-size: 14px;
+      }
+      .share-btn {
+        font-size: 14px;
+        padding: 6px;
+      }
+      /***************Footer**********************/
+footer {
+  padding: 1.75rem; /* Adjust padding for large screens */
+}
+
+footer h5 {
+  font-size: 1.1rem;
+}
+
+footer ul li {
+  font-size: 0.9rem;
+}
+
+footer p, footer small {
+  font-size: 0.8rem;
+}
+
+footer .bi {
+  font-size: 1.4rem;
+}
+/*----------End - 992px-------------*/
+
+  }
+  
+  /* Extra Large Devices (xl: 1200px) */
+  @media (max-width: 1200px) {
+
+      /*------------------Left side--------------------------*/
+    .boxy,
+    .boxyLife2 {
+      height: 450px;
+    }
+
+    .grey-box4e2,
+    .grey-box4e3 {
+      height: 400px;
+    }
+    /*--------------Content-------------------*/
+    .picbox, .boxy, .grey-box-A {
+        height: 260px;
+      }
+      /***************Footer**********************/
+footer {
+  padding: 2rem; /* Consistent padding for extra-large screens */
+}
+
+footer h5 {
+  font-size: 1.15rem;
+}
+
+footer ul li {
+  font-size: 0.95rem;
+}
+
+footer p, footer small {
+  font-size: 0.85rem;
+}
+
+footer .bi {
+  font-size: 1.45rem;
+}
+/*----------End - 1200px-------------*/
+
+  }
+  
+  /* Extra Extra Large Devices (xxl: 1400px) */
+  @media (max-width: 1400px) {
+
+      /*------------------Left side--------------------------*/
+    .boxy,
+    .boxyLife2 {
+      height: 500px;
+    }
+ 
+    .grey-box4e2,
+    .grey-box4e3 {
+      height: 450px;
+    }
+    /*---------------Content--------------------*/
+    .picbox, .boxy, .grey-box-A {
+        height: 280px;
+      }
+      /***************Footer**********************/
+footer {
+  padding: 2.5rem; /* Slightly more padding for extra-extra-large screens */
+}
+
+footer h5 {
+  font-size: 1.2rem;
+}
+
+footer ul li {
+  font-size: 1rem;
+}
+
+footer p, footer small {
+  font-size: 0.9rem;
+}
+
+footer .bi {
+  font-size: 1.5rem;
+}
+/*----------End - px-------------*/
+
+  }
+
+  /*--------------------duhuhbhu--------------------------*/
+  /* Default Styles */
+.col-lg-12 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.grey-box-A {
+    height: 230px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .boxy {
+    height: 460px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .boxySu {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .picbox {
+    width: 100%;
+    height: 0240px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text-muted {
+    font-size: clamp(0.75rem, 0.5938rem + 0.5vw, 0.875rem);
+  }
+  
+  .category,
+  .category2 {
+    font-size: clamp(0.75rem, 0.4375rem + 1vw, 1rem);
+  }
+
+  .share-btn {
+    font-size: 16px;
+    padding: 8px;
+  }
